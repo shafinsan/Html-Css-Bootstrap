@@ -1,0 +1,80 @@
+.custom-shape-divider-top-1726734899 {
+    position: absolute;
+    top: -2px;
+    left: -1px;
+    width: 101%;
+    overflow: hidden;
+    line-height: 0;
+    pointer-events: none;
+
+}
+
+.custom-shape-divider-top-1726734899 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 84px;
+}
+
+.custom-shape-divider-top-1726734899 .shape-fill {
+    fill: #ffffff;
+}
+
+img {
+    height: 300px;
+}
+
+.custom-shape-divider-bottom-1726740784 {
+    position: absolute;
+    bottom: -1px;
+    left: -1px;
+    width: 101%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    pointer-events: none;
+}
+
+.custom-shape-divider-bottom-1726740784 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 107px;
+}
+
+.custom-shape-divider-bottom-1726740784 .shape-fill {
+    fill: #ffffff;
+}
+
+h1,
+p {
+    color: white;
+}
+
+.cardContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+@media (max-width:795px) {
+    .cardContainer {
+        flex-direction: column;
+    }
+}
+
+.parallelEffect {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    /* Define a specific height */
+    background-image: url("./icons/carBack.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
